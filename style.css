@@ -1,0 +1,57 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: forestgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.book-cover {
+    margin-right: 10px;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title, .book-author, .book-pages {
+    margin: 0px;
+}
+
+.buy-button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.cart-item {
+    border: 1px dashed grey;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.cart-book-cover {
+    width: 50px;
+    height: 70px;
+}
+
+.delete-item {
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
